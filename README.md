@@ -19,9 +19,15 @@ npm run test:coverage && open coverage/index.html
 
 ```
 
-> ⚠️ Don't forget to update the repository package name, description, author, and license
+## Using this project
 
-Squashing all commits and remove the git origin can be done with the following commands:
+1. Clone the repository into a new folder:
+
+```shell
+git clone https://github.com/MacMannes/typescript-starter folder-name
+```
+
+2. Squash all commits and remove the git origin with the following commands:
 
 ```shell
 git reset --soft $(git rev-list --max-parents=0 HEAD)
